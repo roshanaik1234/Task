@@ -1,0 +1,8 @@
+.maincontainerTask{
+    padding: 1px 20px;
+}
+
+.maincontainerTask .SubContainer{
+    width: 50%;
+    border: 1px solid black;
+}

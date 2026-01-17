@@ -1,0 +1,14 @@
+.HeaderContainer{
+        display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+    background: #dfe7ea;
+}
+
+.profileContaiber{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
