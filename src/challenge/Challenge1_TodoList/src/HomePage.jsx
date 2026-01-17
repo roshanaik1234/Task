@@ -10,6 +10,17 @@ const HomePage = () => {
 
   const handleAddTask = () => {
     if (inputValue.trim()) {
+         const isDuplicate = TodoList.some(
+        (todo) => todo.task.toLowerCase() === inputValue.trim().toLowerCase()
+      );
+      
+      if (isDuplicate) {
+        // setErrorMessage("This task already exists!");
+        alert("This task already exists!");
+        // setTimeout(() => setErrorMessage(""), 3000);
+        return;
+      }
+
       const newTask = {
         id: Date.now(),
         task: inputValue,
@@ -75,7 +86,7 @@ const HomePage = () => {
           <div style={{ fontSize: '14px', color: '#666' }}>Pending Tasks</div>
         </div>
       </div>
-<div style={{height:"60vh",overflow:"hidden"}}>
+<div style={{height:"60vh",overflow:"auto"}}>
  <table style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr style={{ borderBottom: '2px solid #ddd' }}>
