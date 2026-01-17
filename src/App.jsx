@@ -6,6 +6,7 @@ import { Provider } from "react-redux";
 import { store } from "./redux/Store";
 import MainContaine from "./Page/MainContaine";
 import Dashbord from "./task/src/Dashbord";
+import HomePage from "./challenge/Challenge1_TodoList/src/HomePage";
 
 function App() {
   return (
@@ -23,7 +24,10 @@ function App() {
     //   </BrowserRouter>
     // </Provider>
     <>
-    <Dashbord/>
+    {/* <Dashbord/> */}
+
+    {/* challenge 1 todo list filter delted add without API */}
+    <HomePage/>
     </>
   );
 }
