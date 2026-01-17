@@ -7,6 +7,7 @@ import { store } from "./redux/Store";
 import MainContaine from "./Page/MainContaine";
 import Dashbord from "./task/src/Dashbord";
 import HomePage from "./challenge/Challenge1_TodoList/src/HomePage";
+import Api_userDetails from "./challenge/Challenge2_APIINtergation/src/Api_Fetch_userDetails";
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
     {/* <Dashbord/> */}
 
     {/* challenge 1 todo list filter delted add without API */}
-    <HomePage/>
+    {/* <HomePage/> */}
+    {/* challenge 2 API INtegration fetch user details from API */}
+    <Api_userDetails/>
     </>
   );
 }
