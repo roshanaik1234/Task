@@ -1,0 +1,17 @@
+*1* why use Redux tool kit?
+firstly redux offically say use redux tool kit,because redux remove similar and bugging code in redux.
+
+*2* create a slice for redux tool Kits?
+ A function that accepts a "slice name"
+
+step 1. 
+create store>slice then User.jsx file
+create one method that is createSlice and stored in one veribal
+like =====
+const UserDetail= createSlice({})
+
+step 2. assine Name key for slice name
+assine initialState key for staring postion when refreshing page
+assine reducers Key for the action of the function
+
+step 3 . create store.jsx file  in store folder

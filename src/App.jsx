@@ -9,6 +9,7 @@ import Dashbord from "./task/src/Dashbord";
 import HomePage from "./challenge/Challenge1_TodoList/src/HomePage";
 import Api_userDetails from "./challenge/Challenge2_APIINtergation/src/Api_Fetch_userDetails";
 import FormPage from "./challenge/challenge3_Form/src/FormPage";
+import UserDetail from "./challenge/Challenge4_ReduxPrac/src/Component/UserDetail";
 
 function App() {
   return (
@@ -32,8 +33,10 @@ function App() {
     {/* <HomePage/> */}
     {/* challenge 2 API INtegration fetch user details from API */}
     {/* <Api_userDetails/> */}
-    {/* Form validation changes */}
-    <FormPage/>
+    {/* challenge 3 Form validation changes */}
+    {/* <FormPage/> */}
+    {/* challenge 4 redux practice */}
+    <UserDetail />
     </>
   );
 }
