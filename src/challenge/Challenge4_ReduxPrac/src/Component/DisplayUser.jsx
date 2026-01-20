@@ -22,7 +22,7 @@ const DisplayUser = () => {
     <div>
     {
         data.map((item,index)=>{
-            return <p key={index} style={{display:"flex",justifyContent:"space-between"}}>{item} <span title='Delete' onClick={()=>handelsepreatedDelete(index)}>
+            return <p key={index} style={{display:"flex",justifyContent:"space-between"}}><span>{index+1}</span>{item} <span title='Delete' onClick={()=>handelsepreatedDelete(index)}>
                 <RiDeleteBin6Line color={"red"}/></span></p>
         })
     }

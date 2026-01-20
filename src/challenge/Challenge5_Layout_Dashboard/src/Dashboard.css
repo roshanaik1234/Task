@@ -1,0 +1,33 @@
+.dashboardContainer .containerLayout {
+    display: flex;
+    height: calc(100vh - 12vh);
+}
+
+.footerContainer {
+    padding: 2px 0px;
+    background: rgb(159, 159, 159);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sideBarContainer{
+    width: 15vw;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 22px;
+  min-width: 22px;
+}
+
+.sidebar.collapsed .menu span {
+  display: none;
+}
